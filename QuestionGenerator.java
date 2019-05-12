@@ -10,7 +10,7 @@ public class QuestionGenerator {
 	public static void main(String args[])	{
 		Scanner qs = null;
 		try {
-			File qsFile = new File("src/JEOPARDY_CSVpipetake2.csv");
+			File qsFile = new File("JEOPARDY_CSVpipetake2.csv");
 			qs = new Scanner(qsFile);
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
